@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopeHub - Cancer Patient Support</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/3183/3183067.png" alt="HopeHub Logo">
+            <span>HopeHub</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
+        <button class="dark-mode-toggle" id="darkModeToggle">Dark Mode</button>
+    </header>
+    
+    <div class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Empowering Your Cancer Journey</h1>
+                <p>HopeHub provides holistic care and support for cancer patients, offering personalized resources, emotional support, and a compassionate community.</p>
+                <a href="#dashboard" class="btn">Get Started</a>
+            </div>
+        </section>
+        
+        <section class="features">
+            <div class="feature-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2936/2936886.png" alt="Personalized Care">
+                <h3>Personalized Care</h3>
+                <p>Tailored resources and support based on your specific diagnosis and treatment plan.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="Expert Information">
+                <h3>Expert Information</h3>
+                <p>Trusted, easy-to-understand information about cancer types, treatments, and side effects.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3227/3227151.png" alt="Community Support">
+                <h3>Community Support</h3>
+                <p>Connect with others who understand your journey in our safe, moderated community.</p>
+            </div>
+        </section>
+        
+        <section class="dashboard" id="dashboard">
+            <div class="dashboard-header">
+                <h2>Your Personalized Dashboard</h2>
+                <div class="search-container">
+                    <input type="text" id="cancerSearch" placeholder="Search cancer information...">
+                    <button class="btn" id="searchButton">Search</button>
+                </div>
+            </div>
+            <div class="cancer-info" id="cancerInfoContainer">
+                <!-- Cancer information will be loaded here -->
+            </div>
+        </section>
+        
+        <section class="support-section" id="support">
+            <h2>Emotional Support Tools</h2>
+            <div class="support-options">
+                <div class="support-option">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2969/2969518.png" alt="Therapy">
+                    <h3>Professional Therapy</h3>
+                    <p>Connect with licensed therapists specializing in cancer care.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+                <div class="support-option">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2933/2933245.png" alt="Meditation">
+                    <h3>Guided Meditation</h3>
+                    <p>Reduce stress and anxiety with our guided meditation exercises.</p>
+                    <button class="btn">Try Now</button>
+                </div>
+                <div class="support-option">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3220/3220315.png" alt="Community">
+                    <h3>Support Groups</h3>
+                    <p>Join our online support groups with patients like you.</p>
+                    <button class="btn">Join Now</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mood-tracker">
+            <h2>How Are You Feeling Today?</h2>
+            <p>Track your mood to help us provide better support for you.</p>
+            <div class="mood-options">
+                <div class="mood-option" data-mood="happy">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2582/2582579.png" alt="Happy">
+                    <span>Happy</span>
+                </div>
+                <div class="mood-option" data-mood="calm">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2582/2582587.png" alt="Calm">
+                    <span>Calm</span>
+                </div>
+                <div class="mood-option" data-mood="neutral">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2582/2582634.png" alt="Neutral">
+                    <span>Neutral</span>
+                </div>
+                <div class="mood-option" data-mood="anxious">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2582/2582605.png" alt="Anxious">
+                    <span>Anxious</span>
+                </div>
+                <div class="mood-option" data-mood="sad">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2582/2582601.png" alt="Sad">
+                    <span>Sad</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="resources" id="resources">
+            <h2>Educational Resources</h2>
+            <div class="resource-list" id="resourceList">
+                <!-- Resources will be loaded here -->
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>HopeHub &copy; 2023 | Empowering Cancer Patients with Holistic Care and Support</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
