@@ -1,0 +1,109 @@
+{
+    "cancerInfo": [
+      {
+        "id": 1,
+        "title": "Understanding Breast Cancer",
+        "description": "Breast cancer is a disease in which cells in the breast grow out of control. There are different kinds of breast cancer.",
+        "type": "Patient Education",
+        "url": "#"
+      },
+      {
+        "id": 2,
+        "title": "Treatment Options",
+        "description": "Learn about the different treatment options for breast cancer including surgery, chemotherapy, and radiation.",
+        "type": "Treatment Information",
+        "url": "#"
+      },
+      {
+        "id": 3,
+        "title": "Managing Side Effects",
+        "description": "Information about common side effects of breast cancer treatment and how to manage them.",
+        "type": "Supportive Care",
+        "url": "#"
+      },
+      {
+        "id": 4,
+        "title": "Nutrition During Treatment",
+        "description": "Dietary recommendations for patients undergoing breast cancer treatment.",
+        "type": "Nutrition",
+        "url": "#"
+      },
+      {
+        "id": 5,
+        "title": "Emotional Support Resources",
+        "description": "Resources to help cope with the emotional impact of a breast cancer diagnosis.",
+        "type": "Mental Health",
+        "url": "#"
+      }
+    ],
+    "resources": [
+      {
+        "id": 1,
+        "title": "Chemotherapy Guide",
+        "description": "A comprehensive guide to understanding chemotherapy and its effects.",
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "type": "Treatment"
+      },
+      {
+        "id": 2,
+        "title": "Nutrition During Cancer",
+        "description": "Learn how to maintain proper nutrition during your cancer treatment.",
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "type": "Nutrition"
+      },
+      {
+        "id": 3,
+        "title": "Managing Fatigue",
+        "description": "Strategies to cope with cancer-related fatigue and improve energy levels.",
+        "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "type": "Symptom Management"
+      }
+    ],
+    "moods": [
+      {
+        "id": 1,
+        "name": "Happy",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2582/2582579.png"
+      },
+      {
+        "id": 2,
+        "name": "Calm",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2582/2582587.png"
+      },
+      {
+        "id": 3,
+        "name": "Neutral",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2582/2582634.png"
+      },
+      {
+        "id": 4,
+        "name": "Anxious",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2582/2582605.png"
+      },
+      {
+        "id": 5,
+        "name": "Sad",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2582/2582601.png"
+      }
+    ],
+    "supportOptions": [
+      {
+        "id": 1,
+        "title": "Professional Therapy",
+        "description": "Connect with licensed therapists specializing in cancer care.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2969/2969518.png"
+      },
+      {
+        "id": 2,
+        "title": "Guided Meditation",
+        "description": "Reduce stress and anxiety with our guided meditation exercises.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2933/2933245.png"
+      },
+      {
+        "id": 3,
+        "title": "Support Groups",
+        "description": "Join our online support groups with patients like you.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/3220/3220315.png"
+      }
+    ]
+  }
